@@ -7,24 +7,91 @@
 		font-size: 40px;
 		color: orange;
 		background-color: black;
+		text-align: center;
+	}
+	html {
+		box-sizing: border-box;
+	}
+	*, *:before, *:after {
+		box-sizing: inherit;
 	}
 
 	body {
 
 		background-color: gray;
+	}
+	.top-navigation .links> .active {
+		color: #4c5058;
+		font-weight: 500;	
+	}
+
+	.top-navigation .links li {
+		display: ;
+	}
+	.top-navigation .links {
+		float: right;
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		color: #838994;
+		margin-top: .7rem;
+		-webkit-font-smoothing: antialiased;
+	}
+	.top-navigation .links li:hover {
+		cursor: pointer;
+		color: orange;
+	}
+	.links> .active {
+		display: inline-block;
+		color: #262626;
+		letter-spacing: .03em;
+		padding: 1em;
+		vertical-align: baseline;
+		box-sizing: border-box;
+		
+		
+	}
+	.top-navigation .content {
+			width: 100%;
+			height: 70px;
+			padding: 15px left;
+			background-color: white;
+			margin-top: 0px;
+
+		
+	}
+	.introduction .content{
+		background: url("images/first-background.jpg");
+		background-position: center-bottom;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: auto;
+		width: 100%;
+		align-items: center; 
 
 	}
-	{
-		.top-navigation-color: #fff;
+	button {
+		text-shadow: transparent;
+		border-style: none;
+		border-radius: .50rem;
+		padding: 1rem 1.5rem;
+		width: 7rem;
+		background-color: orange;
 	}
 	
-		.top-navigation > .content {
-			width: 970px;
-			height: 170px;
-			margin: auto;
-		
-		}
-	}
 	div {
-		border: 1px solid Chocolate;
+		border: 1px solid black;
+		border-right: 20px;
+		padding-top: 5px;
+	}	
+	.top-navigation
+
+
+	.cases .devices {
+		width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
 	}
+	
