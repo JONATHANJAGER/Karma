@@ -83,7 +83,12 @@
 		border-right: 20px;
 		padding-top: 5px;
 	}	
-	.top-navigation
+	.top-navigation {
+		position: fixed;
+		width: 100%;
+		z-index: 9999;
+
+	}
 
 
 	.cases .devices {
