@@ -2,12 +2,7 @@
 
 
 
-	p {
-
-		font-size: 40px;
-		color: orange;
-		background-color: black;
-		text-align: center;
+	
 	}
 	html {
 		box-sizing: border-box;
@@ -18,7 +13,7 @@
 
 	body {
 
-		background-color: gray;
+		background-color: white;
 	}
 	.top-navigation .links> .active {
 		color: #4c5058;
@@ -45,7 +40,7 @@
 		color: #262626;
 		letter-spacing: .03em;
 		padding: 1em;
-		vertical-align: baseline;
+		align: baseline;
 		box-sizing: border-box;
 		
 		
@@ -74,7 +69,7 @@
 		border-style: none;
 		border-radius: .50rem;
 		padding: 1rem 1.5rem;
-		width: 7rem;
+		width: 9rem;
 		background-color: orange;
 	}
 	
@@ -88,15 +83,59 @@
 		width: 100%;
 		z-index: 9999;
 
-	}
 
+	}
+	h2 {
+		text-align: center;
+	}
+	
 
 	.cases .devices {
 		width: 33.3333333%;
     display: inline-block;
     /* styles to assist with debugging */
-    border: 1px solid black;
+    border: 1px white;
     box-sizing: border-box;
-    height: 4em;
+    height: auto;
+    width: 100%;
 	}
-	
+	footer {
+		float:center;
+		align: baseline;
+	}
+	.content {
+		background-color: gray
+	}
+
+	.icons {
+		display: inline-block;
+		float: right;
+		box-sizing: border-box;
+	}
+	.twitter {
+		color: #ff9933;
+		width: 50px;
+	    height: 50px;
+	    border: 1px;
+	    border-radius: 190rem;
+	    border-style: groove;
+	    background-color: #d1e0e0;
+	}
+	.facebook {
+		color: #3b5998;
+		width: 50px;
+	    height: 50px;
+	    border: 1px;
+	    border-radius: 190rem;
+	    border-style: groove;
+	    background-color: #d1e0e0;
+	}
+	.instagram {
+		color: #3b5998;
+		width: 50px;
+	    height: 50px;
+	    border: 1px;
+	    border-radius: 190rem;
+	    border-style: groove;
+	    background-color: #d1e0e0;
+	}
