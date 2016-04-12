@@ -91,26 +91,31 @@
 	
 
 	.cases .devices {
-		width: 33.3333333%;
-    display: inline-block;
-    /* styles to assist with debugging */
-    border: 1px white;
-    box-sizing: border-box;
-    height: auto;
-    width: 100%;
+		box-sizing: border-box; 
+		width: 32%;
+	    display: inline-block;
+	    /* styles to assist with debugging */
+	    border: 1px white;
+	    height: auto;
 	}
+	.devives {
+		align: center;
+		
+	}
+
 	footer {
 		float:center;
 		align: baseline;
 	}
 	.content {
-		background-color: gray
+		background-color: white;
+
 	}
 
 	.icons {
 		display: inline-block;
-		float: right;
 		box-sizing: border-box;
+		list-style: none;
 	}
 	.twitter {
 		color: #ff9933;
@@ -120,6 +125,8 @@
 	    border-radius: 190rem;
 	    border-style: groove;
 	    background-color: #d1e0e0;
+	    text-align: right;
+	    
 	}
 	.facebook {
 		color: #3b5998;
@@ -139,3 +146,9 @@
 	    border-style: groove;
 	    background-color: #d1e0e0;
 	}
+	.icons > li {
+		float:left;
+		position: relative;
+		left: 90px;
+	}
+	
